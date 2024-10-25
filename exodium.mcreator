@@ -213,6 +213,19 @@
           "src/main/java/net/mcreator/exodium/item/HumaneyesItem.java"
         ]
       }
+    },
+    {
+      "name": "Skadi",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skadi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/item/SkadiItem.java",
+          "src/main/resources/assets/exodium/models/item/skadi.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -236,6 +249,7 @@
       "item.exodium.stomach_1": "Human stomach",
       "block.exodium.blood_born": "Blood Born",
       "item_group.exodium.organs": "Organs",
+      "item.exodium.skadi": " Eye of Skadi",
       "block.exodium.blood": "Blood",
       "item.exodium.humaneyes": "Human eyes",
       "item.exodium.ridge": "Ridge",

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "exodium:humaneyes"
+    "exodium:humaneyes",
+    "exodium:skadi"
   ]
 }

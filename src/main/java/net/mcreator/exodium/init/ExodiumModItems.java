@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.exodium.item.TshapffyaItem;
 import net.mcreator.exodium.item.Stomach1Item;
+import net.mcreator.exodium.item.SkadiItem;
 import net.mcreator.exodium.item.RidgeItem;
 import net.mcreator.exodium.item.IronheartItem;
 import net.mcreator.exodium.item.HumanheartItem;
@@ -31,6 +32,7 @@ public class ExodiumModItems {
 	public static final RegistryObject<Item> TSHAPFFYA = REGISTRY.register("tshapffya", () -> new TshapffyaItem());
 	public static final RegistryObject<Item> BLOOD_BORN = block(ExodiumModBlocks.BLOOD_BORN);
 	public static final RegistryObject<Item> HUMANEYES = REGISTRY.register("humaneyes", () -> new HumaneyesItem());
+	public static final RegistryObject<Item> SKADI = REGISTRY.register("skadi", () -> new SkadiItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items
