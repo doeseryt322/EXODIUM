@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "exodium:block/svossssssvsvs",
+    "particle": "exodium:block/svossssssvsvs"
+  },
+  "render_type": "cutout"
+}

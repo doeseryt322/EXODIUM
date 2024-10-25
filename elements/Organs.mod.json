@@ -1,0 +1,11 @@
+{
+  "_fv": 66,
+  "_type": "tab",
+  "definition": {
+    "name": "Organs",
+    "icon": {
+      "value": "Blocks.FIRE_CORAL_BLOCK"
+    },
+    "showSearch": false
+  }
+}

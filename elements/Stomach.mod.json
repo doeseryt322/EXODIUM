@@ -1,0 +1,9 @@
+{
+  "_fv": 66,
+  "_type": "curiosslot",
+  "definition": {
+    "texture": "ddd.png",
+    "name": "Stomach",
+    "amount": 1
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "mod_elements": [
+    {
+      "name": "Heart",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/heart.json"
+        ]
+      }
+    },
+    {
+      "name": "Organs",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "organs",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Blood",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/block/BloodBlock.java",
+          "src/main/java/net/mcreator/exodium/fluid/types/BloodFluidType.java",
+          "src/main/resources/assets/exodium/blockstates/blood.json",
+          "src/main/resources/assets/exodium/models/item/blood_bucket.json",
+          "src/main/resources/assets/exodium/models/block/blood.json",
+          "src/main/java/net/mcreator/exodium/fluid/BloodFluid.java",
+          "src/main/java/net/mcreator/exodium/item/BloodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodSPERMA",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_sperma",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exodium/particles/blood_sperma.json",
+          "src/main/java/net/mcreator/exodium/client/particle/BloodSPERMAParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "Stomach",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stomach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/stomach.json"
+        ]
+      }
+    },
+    {
+      "name": "IronheartWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironheart_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/IronheartWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ironheart",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironheart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exodium/models/item/ironheart.json",
+          "src/main/java/net/mcreator/exodium/item/IronheartItem.java",
+          "src/main/java/net/mcreator/exodium/client/renderer/IronheartRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Humanheart",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "humanheart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exodium/models/item/humanheart.json",
+          "src/main/java/net/mcreator/exodium/item/HumanheartItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Stomach1",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stomach_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exodium/models/item/stomach_1.json",
+          "src/main/java/net/mcreator/exodium/item/Stomach1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Cdfdfdfdfdfd",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cdfdfdfdfdfd",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exodium/recipes/cdfdfdfdfdfd.json"
+        ]
+      }
+    },
+    {
+      "name": "Ridge",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ridge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/item/RidgeItem.java",
+          "src/main/resources/assets/exodium/models/item/ridge.json"
+        ]
+      }
+    },
+    {
+      "name": "Tshapffya",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tshapffya",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/item/TshapffyaItem.java",
+          "src/main/resources/assets/exodium/models/item/tshapffya.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodBorn",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_born",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exodium/models/item/blood_born.json",
+          "src/main/java/net/mcreator/exodium/block/BloodBornBlock.java",
+          "src/main/resources/assets/exodium/blockstates/blood_born.json",
+          "src/main/resources/assets/exodium/models/block/blood_born.json",
+          "src/main/resources/data/exodium/loot_tables/blocks/blood_born.json"
+        ]
+      }
+    },
+    {
+      "name": "Ccc",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ccc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/Ccc.java"
+        ]
+      }
+    },
+    {
+      "name": "Eyes",
+      "type": "curiosslot",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eyes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/curios/tags/items/eyes.json"
+        ]
+      }
+    },
+    {
+      "name": "Humaneyes",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "humaneyes",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exodium/models/item/humaneyes.json",
+          "src/main/java/net/mcreator/exodium/item/HumaneyesItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "SVO",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Blood"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "curios.identifier.stomach": "Stomach",
+      "item.exodium.stomach_1": "Human stomach",
+      "block.exodium.blood_born": "Blood Born",
+      "item_group.exodium.organs": "Organs",
+      "block.exodium.blood": "Blood",
+      "item.exodium.humaneyes": "Human eyes",
+      "item.exodium.ridge": "Ridge",
+      "curios.identifier.eyes": "Eyes",
+      "item.exodium.tshapffya": "The Necromancer\u0027s ring",
+      "curios.identifier.heart": "Hearts",
+      "item.exodium.blood_bucket": "Blood Bucket",
+      "item.exodium.ironheart": "Iron heart",
+      "item.exodium.humanheart": "Human heart",
+      "fluid.exodium.blood": "Blood"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "exodium",
+    "modName": "exodium",
+    "version": "1.0.0",
+    "author": "doeser, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.exodium"
+  },
+  "mcreatorVersion": 202400232117
+}

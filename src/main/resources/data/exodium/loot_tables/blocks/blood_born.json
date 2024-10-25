@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "exodium:blocks/blood_born",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "exodium:blood_born"
+        }
+      ]
+    }
+  ]
+}
