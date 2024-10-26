@@ -226,6 +226,70 @@
           "src/main/resources/assets/exodium/models/item/skadi.json"
         ]
       }
+    },
+    {
+      "name": "SkadikursPriIstiechieniiEffiekta",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skadikurs_pri_istiechienii_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/SkadikursPriIstiechieniiEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Skadikurs",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skadikurs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/potion/SkadikursMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "SkadiWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skadi_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/SkadiWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Organdamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "organdamage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exodium/damage_type/organdamage.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -245,6 +309,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "death.attack.organdamage.item": "%1$s was killed by %2$s using %3$s",
+      "effect.exodium.skadikurs": "Skadikurs",
       "curios.identifier.stomach": "Stomach",
       "item.exodium.stomach_1": "Human stomach",
       "block.exodium.blood_born": "Blood Born",
@@ -254,11 +320,13 @@
       "item.exodium.humaneyes": "Human eyes",
       "item.exodium.ridge": "Ridge",
       "curios.identifier.eyes": "Eyes",
+      "death.attack.organdamage.player": "%1$s died whilst trying to escape %2$s",
       "item.exodium.tshapffya": "The Necromancer\u0027s ring",
       "curios.identifier.heart": "Hearts",
       "item.exodium.blood_bucket": "Blood Bucket",
       "item.exodium.ironheart": "Iron heart",
       "item.exodium.humanheart": "Human heart",
+      "death.attack.organdamage": "%1$s died",
       "fluid.exodium.blood": "Blood"
     }
   },

@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.exodium.init.ExodiumModTabs;
 import net.mcreator.exodium.init.ExodiumModParticleTypes;
+import net.mcreator.exodium.init.ExodiumModMobEffects;
 import net.mcreator.exodium.init.ExodiumModItems;
 import net.mcreator.exodium.init.ExodiumModFluids;
 import net.mcreator.exodium.init.ExodiumModFluidTypes;
@@ -49,6 +50,8 @@ public class ExodiumMod {
 		ExodiumModItems.REGISTRY.register(bus);
 
 		ExodiumModTabs.REGISTRY.register(bus);
+
+		ExodiumModMobEffects.REGISTRY.register(bus);
 
 		ExodiumModParticleTypes.REGISTRY.register(bus);
 
