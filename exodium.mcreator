@@ -290,6 +290,49 @@
           "src/main/resources/data/exodium/damage_type/organdamage.json"
         ]
       }
+    },
+    {
+      "name": "Bdagger",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bdagger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exodium/models/item/bdagger.json",
+          "src/main/java/net/mcreator/exodium/item/BdaggerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BdaggerPriShchielchkiePKM",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bdagger_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/BdaggerPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cooldown",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/potion/CooldownMobEffect.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -304,6 +347,9 @@
   "tag_elements": {
     "BLOCKS:minecraft:replaceable": [
       "~CUSTOM:Blood"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Bdagger"
     ]
   },
   "tab_element_order": {},
@@ -322,6 +368,8 @@
       "curios.identifier.eyes": "Eyes",
       "death.attack.organdamage.player": "%1$s died whilst trying to escape %2$s",
       "item.exodium.tshapffya": "The Necromancer\u0027s ring",
+      "item.exodium.bdagger": "Blink dagger",
+      "effect.exodium.cooldown": "Cooldown",
       "curios.identifier.heart": "Hearts",
       "item.exodium.blood_bucket": "Blood Bucket",
       "item.exodium.ironheart": "Iron heart",

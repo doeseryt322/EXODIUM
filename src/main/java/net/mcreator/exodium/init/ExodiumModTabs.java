@@ -26,6 +26,7 @@ public class ExodiumModTabs {
 				tabData.accept(ExodiumModBlocks.BLOOD_BORN.get().asItem());
 				tabData.accept(ExodiumModItems.HUMANEYES.get());
 				tabData.accept(ExodiumModItems.SKADI.get());
+				tabData.accept(ExodiumModItems.BDAGGER.get());
 			})
 
 					.build());

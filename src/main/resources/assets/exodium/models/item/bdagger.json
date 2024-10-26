@@ -1,0 +1,7 @@
+{
+  "parent": "exodium:custom/bdagger",
+  "textures": {
+    "0": "exodium:block/bling",
+    "particle": "minecraft:item/chain"
+  }
+}
