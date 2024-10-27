@@ -21,6 +21,7 @@ import net.mcreator.exodium.item.HumanheartItem;
 import net.mcreator.exodium.item.HumaneyesItem;
 import net.mcreator.exodium.item.BloodItem;
 import net.mcreator.exodium.item.BdaggerItem;
+import net.mcreator.exodium.item.BLOOD1Item;
 import net.mcreator.exodium.ExodiumMod;
 
 public class ExodiumModItems {
@@ -35,6 +36,7 @@ public class ExodiumModItems {
 	public static final RegistryObject<Item> HUMANEYES = REGISTRY.register("humaneyes", () -> new HumaneyesItem());
 	public static final RegistryObject<Item> SKADI = REGISTRY.register("skadi", () -> new SkadiItem());
 	public static final RegistryObject<Item> BDAGGER = REGISTRY.register("bdagger", () -> new BdaggerItem());
+	public static final RegistryObject<Item> BLOOD_1 = REGISTRY.register("blood_1", () -> new BLOOD1Item());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -333,6 +333,19 @@
           "src/main/java/net/mcreator/exodium/potion/CooldownMobEffect.java"
         ]
       }
+    },
+    {
+      "name": "BLOOD1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/item/BLOOD1Item.java",
+          "src/main/resources/assets/exodium/models/item/blood_1.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -356,6 +369,7 @@
   "language_map": {
     "en_us": {
       "death.attack.organdamage.item": "%1$s was killed by %2$s using %3$s",
+      "item.exodium.blood_1": "BLOOD 1",
       "effect.exodium.skadikurs": "Skadikurs",
       "curios.identifier.stomach": "Stomach",
       "item.exodium.stomach_1": "Human stomach",
