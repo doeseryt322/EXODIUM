@@ -30,13 +30,13 @@
       "registry_name": "blood",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/exodium/block/BloodBlock.java",
           "src/main/java/net/mcreator/exodium/fluid/types/BloodFluidType.java",
+          "src/main/java/net/mcreator/exodium/block/BloodBlock.java",
           "src/main/resources/assets/exodium/blockstates/blood.json",
+          "src/main/java/net/mcreator/exodium/item/BloodItem.java",
           "src/main/resources/assets/exodium/models/item/blood_bucket.json",
-          "src/main/resources/assets/exodium/models/block/blood.json",
           "src/main/java/net/mcreator/exodium/fluid/BloodFluid.java",
-          "src/main/java/net/mcreator/exodium/item/BloodItem.java"
+          "src/main/resources/assets/exodium/models/block/blood.json"
         ]
       }
     },
@@ -105,8 +105,8 @@
       "registry_name": "humanheart",
       "metadata": {
         "files": [
-          "src/main/resources/assets/exodium/models/item/humanheart.json",
-          "src/main/java/net/mcreator/exodium/item/HumanheartItem.java"
+          "src/main/java/net/mcreator/exodium/item/HumanheartItem.java",
+          "src/main/resources/assets/exodium/models/item/humanheart.json"
         ]
       }
     },
@@ -143,8 +143,8 @@
       "registry_name": "ridge",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/exodium/item/RidgeItem.java",
-          "src/main/resources/assets/exodium/models/item/ridge.json"
+          "src/main/resources/assets/exodium/models/item/ridge.json",
+          "src/main/java/net/mcreator/exodium/item/RidgeItem.java"
         ]
       }
     },
@@ -169,11 +169,11 @@
       "registry_name": "blood_born",
       "metadata": {
         "files": [
-          "src/main/resources/assets/exodium/models/item/blood_born.json",
-          "src/main/java/net/mcreator/exodium/block/BloodBornBlock.java",
-          "src/main/resources/assets/exodium/blockstates/blood_born.json",
+          "src/main/resources/data/exodium/loot_tables/blocks/blood_born.json",
           "src/main/resources/assets/exodium/models/block/blood_born.json",
-          "src/main/resources/data/exodium/loot_tables/blocks/blood_born.json"
+          "src/main/resources/assets/exodium/models/item/blood_born.json",
+          "src/main/resources/assets/exodium/blockstates/blood_born.json",
+          "src/main/java/net/mcreator/exodium/block/BloodBornBlock.java"
         ]
       }
     },
@@ -209,8 +209,8 @@
       "registry_name": "humaneyes",
       "metadata": {
         "files": [
-          "src/main/resources/assets/exodium/models/item/humaneyes.json",
-          "src/main/java/net/mcreator/exodium/item/HumaneyesItem.java"
+          "src/main/java/net/mcreator/exodium/item/HumaneyesItem.java",
+          "src/main/resources/assets/exodium/models/item/humaneyes.json"
         ]
       }
     },
@@ -299,8 +299,8 @@
       "registry_name": "bdagger",
       "metadata": {
         "files": [
-          "src/main/resources/assets/exodium/models/item/bdagger.json",
-          "src/main/java/net/mcreator/exodium/item/BdaggerItem.java"
+          "src/main/java/net/mcreator/exodium/item/BdaggerItem.java",
+          "src/main/resources/assets/exodium/models/item/bdagger.json"
         ]
       }
     },
@@ -346,6 +346,64 @@
           "src/main/resources/assets/exodium/models/item/blood_1.json"
         ]
       }
+    },
+    {
+      "name": "Bleedorno",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleedyes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/BleedornoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bleedactive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleedactive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/BleedactiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bleedoryes",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleedoryes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/BleedoryesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -353,7 +411,7 @@
       "name": "SVO",
       "type": "number",
       "scope": "map",
-      "value": "0"
+      "value": "1.0"
     }
   ],
   "sound_elements": [],
@@ -374,12 +432,12 @@
       "curios.identifier.stomach": "Stomach",
       "item.exodium.stomach_1": "Human stomach",
       "block.exodium.blood_born": "Blood Born",
-      "item_group.exodium.organs": "Organs",
       "item.exodium.skadi": " Eye of Skadi",
+      "item_group.exodium.organs": "Organs",
       "block.exodium.blood": "Blood",
       "item.exodium.humaneyes": "Human eyes",
-      "item.exodium.ridge": "Ridge",
       "curios.identifier.eyes": "Eyes",
+      "item.exodium.ridge": "Ridge",
       "death.attack.organdamage.player": "%1$s died whilst trying to escape %2$s",
       "item.exodium.tshapffya": "The Necromancer\u0027s ring",
       "item.exodium.bdagger": "Blink dagger",

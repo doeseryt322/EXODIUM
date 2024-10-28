@@ -87,7 +87,7 @@ public class ExodiumModVariables {
 
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "exodium_mapvars";
-		public double SVO = 0;
+		public double SVO = 1.0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();

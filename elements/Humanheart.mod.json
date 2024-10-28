@@ -38,6 +38,12 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "slotAmount": 1,
+    "onEquip": {
+      "name": "Bleedoryes"
+    },
+    "onUnequip": {
+      "name": "Bleedorno"
+    },
     "isFood": true,
     "friendlyPigs": false,
     "enderMask": false,
