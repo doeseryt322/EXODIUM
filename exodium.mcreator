@@ -462,6 +462,226 @@
           "src/main/resources/assets/exodium/models/item/protectivetable.json"
         ]
       }
+    },
+    {
+      "name": "Bloodbarproc1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbarproc_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/Bloodbarproc1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manabarproc2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manabarproc_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/Manabarproc2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manabarproc3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manabarproc_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/Manabarproc3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manabarproc4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manabarproc_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/Manabarproc4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manabarproc5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manabarproc_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/Manabarproc5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manabarproc6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manabarproc_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/Manabarproc6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manabarproc7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manabarproc_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/Manabarproc7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manabarproc8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manabarproc_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/Manabarproc8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manabarproc9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manabarproc_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/Manabarproc9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Manabarproc10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "manabarproc_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/Manabarproc10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bloodbar",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodbar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/client/screens/BloodbarOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Bloodamamam",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodamamam",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/BloodamamamProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -470,6 +690,12 @@
       "type": "number",
       "scope": "map",
       "value": "1.0"
+    },
+    {
+      "name": "bloodbar",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -485,17 +711,17 @@
   "language_map": {
     "en_us": {
       "death.attack.organdamage.item": "%1$s was killed by %2$s using %3$s",
-      "item.exodium.blood_1": "BLOOD 1",
+      "item.exodium.blood_1": "A bag of blood",
       "effect.exodium.skadikurs": "Skadikurs",
-      "item.exodium.stomach_1": "Human stomach",
       "curios.identifier.stomach": "Stomach",
+      "item.exodium.stomach_1": "Human stomach",
       "item.exodium.skadi": " Eye of Skadi",
       "entity.exodium.bloodwariror": "The bloody kidnapper",
       "painting.exodium.zxc.author": "doeseryt",
       "item.exodium.humaneyes": "Human eyes",
       "effect.exodium.internalbleeding": "Internal bleeding",
-      "curios.identifier.eyes": "Eyes",
       "item.exodium.bloodwariror_spawn_egg": "The bloody kidnapper Spawn Egg",
+      "curios.identifier.eyes": "Eyes",
       "item.exodium.ironheart": "Iron heart",
       "item.exodium.humanheart": "Human heart",
       "painting.exodium.zxc.title": "catz",
@@ -515,7 +741,16 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "bloodbar",
+        "children": []
+      },
+      {
+        "name": "blooodbaaar",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "exodium",

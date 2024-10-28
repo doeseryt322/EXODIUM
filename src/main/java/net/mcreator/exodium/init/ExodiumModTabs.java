@@ -26,6 +26,7 @@ public class ExodiumModTabs {
 				tabData.accept(ExodiumModItems.HUMANEYES.get());
 				tabData.accept(ExodiumModItems.SKADI.get());
 				tabData.accept(ExodiumModItems.BDAGGER.get());
+				tabData.accept(ExodiumModItems.BLOOD_1.get());
 				tabData.accept(ExodiumModItems.BLOODWARIROR_SPAWN_EGG.get());
 			})
 

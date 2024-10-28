@@ -1,0 +1,158 @@
+{
+  "_fv": 66,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "new_piskel-1.png_1.png",
+          "use1Xscale": false,
+          "anchorPoint": "CENTER",
+          "x": 294,
+          "y": 199
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "new_piskel-2.png_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Manabarproc10"
+          },
+          "anchorPoint": "CENTER",
+          "x": 294,
+          "y": 199
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "new_piskel-2.png_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Manabarproc9"
+          },
+          "anchorPoint": "CENTER",
+          "x": 294,
+          "y": 203
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "new_piskel-2.png_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Manabarproc8"
+          },
+          "anchorPoint": "CENTER",
+          "x": 294,
+          "y": 207
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "new_piskel-2.png_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Manabarproc7"
+          },
+          "anchorPoint": "CENTER",
+          "x": 294,
+          "y": 211
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "new_piskel-2.png_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Manabarproc6"
+          },
+          "anchorPoint": "CENTER",
+          "x": 294,
+          "y": 215
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "new_piskel-2.png_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Manabarproc5"
+          },
+          "anchorPoint": "CENTER",
+          "x": 294,
+          "y": 219
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "new_piskel-2.png_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Manabarproc4"
+          },
+          "anchorPoint": "CENTER",
+          "x": 294,
+          "y": 223
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "new_piskel-2.png_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Manabarproc3"
+          },
+          "anchorPoint": "CENTER",
+          "x": 294,
+          "y": 227
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "new_piskel-2.png_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Manabarproc2"
+          },
+          "anchorPoint": "CENTER",
+          "x": 294,
+          "y": 231
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "new_piskel-2.png_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Bloodbarproc1"
+          },
+          "anchorPoint": "CENTER",
+          "x": 294,
+          "y": 235
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
