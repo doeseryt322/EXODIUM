@@ -9,6 +9,7 @@
   "item_group.exodium.organs": "Organs",
   "block.exodium.blood": "Blood",
   "item.exodium.humaneyes": "Human eyes",
+  "effect.exodium.internalbleeding": "Internal bleeding",
   "curios.identifier.eyes": "Eyes",
   "item.exodium.ridge": "Ridge",
   "death.attack.organdamage.player": "%1$s died whilst trying to escape %2$s",

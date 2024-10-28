@@ -404,6 +404,40 @@
           }
         ]
       }
+    },
+    {
+      "name": "InternalbleedingKazhdyiTikVoVriemiaEffiekta",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "internalbleeding_kazhdyi_tik_vo_vriemia_effiekta",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/InternalbleedingKazhdyiTikVoVriemiaEffiektaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Internalbleeding",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "internalbleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/potion/InternalbleedingMobEffect.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -436,6 +470,7 @@
       "item_group.exodium.organs": "Organs",
       "block.exodium.blood": "Blood",
       "item.exodium.humaneyes": "Human eyes",
+      "effect.exodium.internalbleeding": "Internal bleeding",
       "curios.identifier.eyes": "Eyes",
       "item.exodium.ridge": "Ridge",
       "death.attack.organdamage.player": "%1$s died whilst trying to escape %2$s",

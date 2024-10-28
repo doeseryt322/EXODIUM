@@ -8,10 +8,10 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 
 import net.mcreator.exodium.network.ExodiumModVariables;
+import net.mcreator.exodium.init.ExodiumModMobEffects;
 
 import javax.annotation.Nullable;
 
@@ -33,7 +33,7 @@ public class BleedactiveProcedure {
 			return;
 		if (ExodiumModVariables.MapVariables.get(world).SVO == 0) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.POISON, 40, 1));
+				_entity.addEffect(new MobEffectInstance(ExodiumModMobEffects.INTERNALBLEEDING.get(), 40, 0));
 		}
 	}
 }
