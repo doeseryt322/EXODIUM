@@ -13,7 +13,7 @@ import net.minecraft.resources.ResourceLocation;
 public class ExodiumModCustomCuriosSlots {
 	@SubscribeEvent
 	public static void enqueueIMC(final InterModEnqueueEvent event) {
-		InterModComms.sendTo("curios", SlotTypeMessage.REGISTER_TYPE, () -> new SlotTypeMessage.Builder("heart").icon(new ResourceLocation("curios:slot/2eeee")).size(1).build());
+		InterModComms.sendTo("curios", SlotTypeMessage.REGISTER_TYPE, () -> new SlotTypeMessage.Builder("heart").icon(new ResourceLocation("curios:slot/vvv")).size(1).build());
 		InterModComms.sendTo("curios", SlotTypeMessage.REGISTER_TYPE, () -> new SlotTypeMessage.Builder("stomach").icon(new ResourceLocation("curios:slot/ddd")).size(1).build());
 		InterModComms.sendTo("curios", SlotTypeMessage.REGISTER_TYPE, () -> new SlotTypeMessage.Builder("eyes").icon(new ResourceLocation("curios:slot/dddddddddddddddd")).size(1).build());
 	}

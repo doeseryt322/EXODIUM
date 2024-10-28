@@ -19,10 +19,12 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.exodium.init.ExodiumModTabs;
 import net.mcreator.exodium.init.ExodiumModParticleTypes;
+import net.mcreator.exodium.init.ExodiumModPaintings;
 import net.mcreator.exodium.init.ExodiumModMobEffects;
 import net.mcreator.exodium.init.ExodiumModItems;
 import net.mcreator.exodium.init.ExodiumModFluids;
 import net.mcreator.exodium.init.ExodiumModFluidTypes;
+import net.mcreator.exodium.init.ExodiumModEntities;
 import net.mcreator.exodium.init.ExodiumModBlocks;
 
 import java.util.function.Supplier;
@@ -48,11 +50,13 @@ public class ExodiumMod {
 		ExodiumModBlocks.REGISTRY.register(bus);
 
 		ExodiumModItems.REGISTRY.register(bus);
+		ExodiumModEntities.REGISTRY.register(bus);
 
 		ExodiumModTabs.REGISTRY.register(bus);
 
 		ExodiumModMobEffects.REGISTRY.register(bus);
 
+		ExodiumModPaintings.REGISTRY.register(bus);
 		ExodiumModParticleTypes.REGISTRY.register(bus);
 
 		ExodiumModFluids.REGISTRY.register(bus);

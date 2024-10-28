@@ -149,19 +149,6 @@
       }
     },
     {
-      "name": "Tshapffya",
-      "type": "curiosbauble",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tshapffya",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/exodium/item/TshapffyaItem.java",
-          "src/main/resources/assets/exodium/models/item/tshapffya.json"
-        ]
-      }
-    },
-    {
       "name": "BloodBorn",
       "type": "plant",
       "compiles": true,
@@ -438,6 +425,43 @@
           "src/main/java/net/mcreator/exodium/potion/InternalbleedingMobEffect.java"
         ]
       }
+    },
+    {
+      "name": "Zxc",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zxc",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Bloodwariror",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodwariror",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exodium/models/item/bloodwariror_spawn_egg.json",
+          "src/main/java/net/mcreator/exodium/client/renderer/BloodwarirorRenderer.java",
+          "src/main/java/net/mcreator/exodium/entity/BloodwarirorEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Protectivetable",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "protectivetable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/item/ProtectivetableItem.java",
+          "src/main/resources/assets/exodium/models/item/protectivetable.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -463,25 +487,29 @@
       "death.attack.organdamage.item": "%1$s was killed by %2$s using %3$s",
       "item.exodium.blood_1": "BLOOD 1",
       "effect.exodium.skadikurs": "Skadikurs",
-      "curios.identifier.stomach": "Stomach",
       "item.exodium.stomach_1": "Human stomach",
-      "block.exodium.blood_born": "Blood Born",
+      "curios.identifier.stomach": "Stomach",
       "item.exodium.skadi": " Eye of Skadi",
-      "item_group.exodium.organs": "Organs",
-      "block.exodium.blood": "Blood",
+      "entity.exodium.bloodwariror": "The bloody kidnapper",
+      "painting.exodium.zxc.author": "doeseryt",
       "item.exodium.humaneyes": "Human eyes",
       "effect.exodium.internalbleeding": "Internal bleeding",
       "curios.identifier.eyes": "Eyes",
+      "item.exodium.bloodwariror_spawn_egg": "The bloody kidnapper Spawn Egg",
+      "item.exodium.ironheart": "Iron heart",
+      "item.exodium.humanheart": "Human heart",
+      "painting.exodium.zxc.title": "catz",
+      "death.attack.organdamage": "%1$s died",
+      "block.exodium.blood_born": "Blood Born",
+      "item_group.exodium.organs": "Organs",
+      "block.exodium.blood": "Blood",
       "item.exodium.ridge": "Ridge",
       "death.attack.organdamage.player": "%1$s died whilst trying to escape %2$s",
-      "item.exodium.tshapffya": "The Necromancer\u0027s ring",
       "item.exodium.bdagger": "Blink dagger",
       "effect.exodium.cooldown": "Cooldown",
       "curios.identifier.heart": "Hearts",
       "item.exodium.blood_bucket": "Blood Bucket",
-      "item.exodium.ironheart": "Iron heart",
-      "item.exodium.humanheart": "Human heart",
-      "death.attack.organdamage": "%1$s died",
+      "item.exodium.protectivetable": "Protectivetable",
       "fluid.exodium.blood": "Blood"
     }
   },

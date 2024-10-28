@@ -22,11 +22,11 @@ public class ExodiumModTabs {
 				tabData.accept(ExodiumModItems.IRONHEART.get());
 				tabData.accept(ExodiumModItems.HUMANHEART.get());
 				tabData.accept(ExodiumModItems.STOMACH_1.get());
-				tabData.accept(ExodiumModItems.TSHAPFFYA.get());
 				tabData.accept(ExodiumModBlocks.BLOOD_BORN.get().asItem());
 				tabData.accept(ExodiumModItems.HUMANEYES.get());
 				tabData.accept(ExodiumModItems.SKADI.get());
 				tabData.accept(ExodiumModItems.BDAGGER.get());
+				tabData.accept(ExodiumModItems.BLOODWARIROR_SPAWN_EGG.get());
 			})
 
 					.build());
