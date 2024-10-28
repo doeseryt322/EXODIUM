@@ -13,6 +13,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.exodium.item.TestItem;
 import net.mcreator.exodium.item.Stomach1Item;
 import net.mcreator.exodium.item.SkadiItem;
 import net.mcreator.exodium.item.RidgeItem;
@@ -39,6 +40,7 @@ public class ExodiumModItems {
 	public static final RegistryObject<Item> BLOOD_1 = REGISTRY.register("blood_1", () -> new BLOOD1Item());
 	public static final RegistryObject<Item> BLOODWARIROR_SPAWN_EGG = REGISTRY.register("bloodwariror_spawn_egg", () -> new ForgeSpawnEggItem(ExodiumModEntities.BLOODWARIROR, -13303808, -8257536, new Item.Properties()));
 	public static final RegistryObject<Item> PROTECTIVETABLE = REGISTRY.register("protectivetable", () -> new ProtectivetableItem());
+	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

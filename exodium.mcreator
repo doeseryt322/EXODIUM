@@ -105,8 +105,8 @@
       "registry_name": "humanheart",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/exodium/item/HumanheartItem.java",
-          "src/main/resources/assets/exodium/models/item/humanheart.json"
+          "src/main/resources/assets/exodium/models/item/humanheart.json",
+          "src/main/java/net/mcreator/exodium/item/HumanheartItem.java"
         ]
       }
     },
@@ -345,6 +345,10 @@
           "src/main/java/net/mcreator/exodium/procedures/BleedornoProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "world",
             "type": "world"
@@ -682,6 +686,73 @@
           }
         ]
       }
+    },
+    {
+      "name": "Bloodregen",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodregen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/BloodregenProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestPriShchielchkiePKM",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/TestPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exodium/models/item/test.json",
+          "src/main/java/net/mcreator/exodium/item/TestItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Smertoyblood",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smertoyblood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/SmertoybloodProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -713,19 +784,20 @@
       "death.attack.organdamage.item": "%1$s was killed by %2$s using %3$s",
       "item.exodium.blood_1": "A bag of blood",
       "effect.exodium.skadikurs": "Skadikurs",
-      "curios.identifier.stomach": "Stomach",
       "item.exodium.stomach_1": "Human stomach",
+      "curios.identifier.stomach": "Stomach",
       "item.exodium.skadi": " Eye of Skadi",
       "entity.exodium.bloodwariror": "The bloody kidnapper",
       "painting.exodium.zxc.author": "doeseryt",
       "item.exodium.humaneyes": "Human eyes",
       "effect.exodium.internalbleeding": "Internal bleeding",
-      "item.exodium.bloodwariror_spawn_egg": "The bloody kidnapper Spawn Egg",
       "curios.identifier.eyes": "Eyes",
+      "item.exodium.bloodwariror_spawn_egg": "The bloody kidnapper Spawn Egg",
       "item.exodium.ironheart": "Iron heart",
       "item.exodium.humanheart": "Human heart",
       "painting.exodium.zxc.title": "catz",
       "death.attack.organdamage": "%1$s died",
+      "item.exodium.test": "Test",
       "block.exodium.blood_born": "Blood Born",
       "item_group.exodium.organs": "Organs",
       "block.exodium.blood": "Blood",
