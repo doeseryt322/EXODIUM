@@ -14,10 +14,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.exodium.item.TestItem;
+import net.mcreator.exodium.item.StopkaItem;
 import net.mcreator.exodium.item.Stomach1Item;
 import net.mcreator.exodium.item.SkadiItem;
+import net.mcreator.exodium.item.SdsdsItem;
 import net.mcreator.exodium.item.RidgeItem;
 import net.mcreator.exodium.item.ProtectivetableItem;
+import net.mcreator.exodium.item.KakayatohuinyaItem;
 import net.mcreator.exodium.item.IronheartItem;
 import net.mcreator.exodium.item.HumanheartItem;
 import net.mcreator.exodium.item.HumaneyesItem;
@@ -41,6 +44,9 @@ public class ExodiumModItems {
 	public static final RegistryObject<Item> BLOODWARIROR_SPAWN_EGG = REGISTRY.register("bloodwariror_spawn_egg", () -> new ForgeSpawnEggItem(ExodiumModEntities.BLOODWARIROR, -13303808, -8257536, new Item.Properties()));
 	public static final RegistryObject<Item> PROTECTIVETABLE = REGISTRY.register("protectivetable", () -> new ProtectivetableItem());
 	public static final RegistryObject<Item> TEST = REGISTRY.register("test", () -> new TestItem());
+	public static final RegistryObject<Item> KAKAYATOHUINYA = REGISTRY.register("kakayatohuinya", () -> new KakayatohuinyaItem());
+	public static final RegistryObject<Item> STOPKA = REGISTRY.register("stopka", () -> new StopkaItem());
+	public static final RegistryObject<Item> SDSDS = REGISTRY.register("sdsds", () -> new SdsdsItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

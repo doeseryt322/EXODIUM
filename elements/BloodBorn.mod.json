@@ -63,7 +63,7 @@
     },
     "useLootTableForDrops": false,
     "customDrop": {
-      "value": "CUSTOM:BloodBorn"
+      "value": "CUSTOM:Kakayatohuinya"
     },
     "dropAmount": 1,
     "forceTicking": false,

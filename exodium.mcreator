@@ -156,11 +156,11 @@
       "registry_name": "blood_born",
       "metadata": {
         "files": [
-          "src/main/resources/data/exodium/loot_tables/blocks/blood_born.json",
-          "src/main/resources/assets/exodium/models/block/blood_born.json",
           "src/main/resources/assets/exodium/models/item/blood_born.json",
+          "src/main/java/net/mcreator/exodium/block/BloodBornBlock.java",
           "src/main/resources/assets/exodium/blockstates/blood_born.json",
-          "src/main/java/net/mcreator/exodium/block/BloodBornBlock.java"
+          "src/main/resources/assets/exodium/models/block/blood_born.json",
+          "src/main/resources/data/exodium/loot_tables/blocks/blood_born.json"
         ]
       }
     },
@@ -753,6 +753,57 @@
           }
         ]
       }
+    },
+    {
+      "name": "Kakayatohuinya",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kakayatohuinya",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/item/KakayatohuinyaItem.java",
+          "src/main/resources/assets/exodium/models/item/kakayatohuinya.json"
+        ]
+      }
+    },
+    {
+      "name": "Stopka",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stopka",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/item/StopkaItem.java",
+          "src/main/resources/assets/exodium/models/item/stopka.json"
+        ]
+      }
+    },
+    {
+      "name": "Receptstopka",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "receptstopka",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/exodium/recipes/receptstopka.json"
+        ]
+      }
+    },
+    {
+      "name": "Sdsds",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sdsds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/exodium/models/item/sdsds.json",
+          "src/main/java/net/mcreator/exodium/item/SdsdsItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -784,20 +835,22 @@
       "death.attack.organdamage.item": "%1$s was killed by %2$s using %3$s",
       "item.exodium.blood_1": "A bag of blood",
       "effect.exodium.skadikurs": "Skadikurs",
-      "item.exodium.stomach_1": "Human stomach",
       "curios.identifier.stomach": "Stomach",
+      "item.exodium.stomach_1": "Human stomach",
       "item.exodium.skadi": " Eye of Skadi",
       "entity.exodium.bloodwariror": "The bloody kidnapper",
       "painting.exodium.zxc.author": "doeseryt",
       "item.exodium.humaneyes": "Human eyes",
       "effect.exodium.internalbleeding": "Internal bleeding",
-      "curios.identifier.eyes": "Eyes",
       "item.exodium.bloodwariror_spawn_egg": "The bloody kidnapper Spawn Egg",
+      "curios.identifier.eyes": "Eyes",
       "item.exodium.ironheart": "Iron heart",
       "item.exodium.humanheart": "Human heart",
       "painting.exodium.zxc.title": "catz",
       "death.attack.organdamage": "%1$s died",
+      "item.exodium.kakayatohuinya": "Kakayatohuinya",
       "item.exodium.test": "Test",
+      "item.exodium.stopka": "Stopka",
       "block.exodium.blood_born": "Blood Born",
       "item_group.exodium.organs": "Organs",
       "block.exodium.blood": "Blood",
@@ -807,6 +860,7 @@
       "effect.exodium.cooldown": "Cooldown",
       "curios.identifier.heart": "Hearts",
       "item.exodium.blood_bucket": "Blood Bucket",
+      "item.exodium.sdsds": "Sdsds",
       "item.exodium.protectivetable": "Protectivetable",
       "fluid.exodium.blood": "Blood"
     }
