@@ -1,0 +1,9 @@
+{
+  "parent": "exodium:custom/serdcehueta",
+  "textures": {
+    "all": "exodium:block/huitacsedcem",
+    "particle": "exodium:block/huitacsedcem",
+    "0": "exodium:block/huitacsedcem"
+  },
+  "render_type": "solid"
+}

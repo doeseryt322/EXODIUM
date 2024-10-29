@@ -12,12 +12,14 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.exodium.block.BloodBornBlock;
 import net.mcreator.exodium.block.BloodBlock;
+import net.mcreator.exodium.block.BankasokallomBlock;
 import net.mcreator.exodium.ExodiumMod;
 
 public class ExodiumModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, ExodiumMod.MODID);
 	public static final RegistryObject<Block> BLOOD = REGISTRY.register("blood", () -> new BloodBlock());
 	public static final RegistryObject<Block> BLOOD_BORN = REGISTRY.register("blood_born", () -> new BloodBornBlock());
+	public static final RegistryObject<Block> BANKASOKALLOM = REGISTRY.register("bankasokallom", () -> new BankasokallomBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

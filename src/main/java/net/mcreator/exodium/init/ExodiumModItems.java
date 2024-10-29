@@ -47,6 +47,7 @@ public class ExodiumModItems {
 	public static final RegistryObject<Item> KAKAYATOHUINYA = REGISTRY.register("kakayatohuinya", () -> new KakayatohuinyaItem());
 	public static final RegistryObject<Item> STOPKA = REGISTRY.register("stopka", () -> new StopkaItem());
 	public static final RegistryObject<Item> SDSDS = REGISTRY.register("sdsds", () -> new SdsdsItem());
+	public static final RegistryObject<Item> BANKASOKALLOM = block(ExodiumModBlocks.BANKASOKALLOM);
 
 	// Start of user code block custom items
 	// End of user code block custom items
