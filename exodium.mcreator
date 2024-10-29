@@ -105,8 +105,8 @@
       "registry_name": "humanheart",
       "metadata": {
         "files": [
-          "src/main/resources/assets/exodium/models/item/humanheart.json",
-          "src/main/java/net/mcreator/exodium/item/HumanheartItem.java"
+          "src/main/java/net/mcreator/exodium/item/HumanheartItem.java",
+          "src/main/resources/assets/exodium/models/item/humanheart.json"
         ]
       }
     },
@@ -196,8 +196,8 @@
       "registry_name": "humaneyes",
       "metadata": {
         "files": [
-          "src/main/resources/assets/exodium/models/item/humaneyes.json",
-          "src/main/java/net/mcreator/exodium/item/HumaneyesItem.java"
+          "src/main/java/net/mcreator/exodium/item/HumaneyesItem.java",
+          "src/main/resources/assets/exodium/models/item/humaneyes.json"
         ]
       }
     },
@@ -348,13 +348,10 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/bleed"
     },
     {
       "name": "Bleedactive",
@@ -370,13 +367,10 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/bleed"
     },
     {
       "name": "Bleedoryes",
@@ -390,11 +384,12 @@
         ],
         "dependencies": [
           {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/bleed"
     },
     {
       "name": "InternalbleedingKazhdyiTikVoVriemiaEffiekta",
@@ -804,13 +799,127 @@
           "src/main/java/net/mcreator/exodium/item/SdsdsItem.java"
         ]
       }
+    },
+    {
+      "name": "Istoshenieyes",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "istoshenieyes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/IstoshenieyesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/istoshenie"
+    },
+    {
+      "name": "Istosgenieno",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "istosgenieno",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/IstosgenienoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/istoshenie"
+    },
+    {
+      "name": "Istoshenieactive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "istoshenieactive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/IstoshenieactiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/istoshenie"
+    },
+    {
+      "name": "Slepotayes",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slepotayes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/SlepotayesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/sslepotaa"
+    },
+    {
+      "name": "Slepotano",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slepotano",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/SlepotanoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/sslepotaa"
+    },
+    {
+      "name": "Slepotaactive",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slepotaactive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/exodium/procedures/SlepotaactiveProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/sslepotaa"
     }
   ],
   "variable_elements": [
     {
       "name": "SVO",
       "type": "number",
-      "scope": "map",
+      "scope": "player_persistent",
       "value": "1.0"
     },
     {
@@ -818,6 +927,18 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
+    },
+    {
+      "name": "istoshenie",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "slepoigoida",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
     }
   ],
   "sound_elements": [],
@@ -835,15 +956,15 @@
       "death.attack.organdamage.item": "%1$s was killed by %2$s using %3$s",
       "item.exodium.blood_1": "A bag of blood",
       "effect.exodium.skadikurs": "Skadikurs",
-      "curios.identifier.stomach": "Stomach",
       "item.exodium.stomach_1": "Human stomach",
+      "curios.identifier.stomach": "Stomach",
       "item.exodium.skadi": " Eye of Skadi",
       "entity.exodium.bloodwariror": "The bloody kidnapper",
       "painting.exodium.zxc.author": "doeseryt",
       "item.exodium.humaneyes": "Human eyes",
       "effect.exodium.internalbleeding": "Internal bleeding",
-      "item.exodium.bloodwariror_spawn_egg": "The bloody kidnapper Spawn Egg",
       "curios.identifier.eyes": "Eyes",
+      "item.exodium.bloodwariror_spawn_egg": "The bloody kidnapper Spawn Egg",
       "item.exodium.ironheart": "Iron heart",
       "item.exodium.humanheart": "Human heart",
       "painting.exodium.zxc.title": "catz",
@@ -874,6 +995,18 @@
       },
       {
         "name": "blooodbaaar",
+        "children": []
+      },
+      {
+        "name": "istoshenie",
+        "children": []
+      },
+      {
+        "name": "bleed",
+        "children": []
+      },
+      {
+        "name": "sslepotaa",
         "children": []
       }
     ]

@@ -21,11 +21,11 @@ public class HumanheartItem extends Item implements ICurioItem {
 
 	@Override
 	public void onEquip(SlotContext slotContext, ItemStack prevStack, ItemStack stack) {
-		BleedoryesProcedure.execute(slotContext.entity().level());
+		BleedoryesProcedure.execute(slotContext.entity());
 	}
 
 	@Override
 	public void onUnequip(SlotContext slotContext, ItemStack newStack, ItemStack stack) {
-		BleedornoProcedure.execute(slotContext.entity().level(), slotContext.entity());
+		BleedornoProcedure.execute(slotContext.entity());
 	}
 }

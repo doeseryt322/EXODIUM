@@ -7,15 +7,15 @@ import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 
 import net.mcreator.exodium.network.ExodiumModVariables;
-import net.mcreator.exodium.init.ExodiumModMobEffects;
 
 import javax.annotation.Nullable;
 
 @Mod.EventBusSubscriber
-public class BleedactiveProcedure {
+public class IstoshenieactiveProcedure {
 	@SubscribeEvent
 	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
 		if (event.phase == TickEvent.Phase.END) {
@@ -30,9 +30,9 @@ public class BleedactiveProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity.getCapability(ExodiumModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ExodiumModVariables.PlayerVariables())).SVO == 0) {
+		if ((entity.getCapability(ExodiumModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ExodiumModVariables.PlayerVariables())).istoshenie == 0) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(ExodiumModMobEffects.INTERNALBLEEDING.get(), 40, 0));
+				_entity.addEffect(new MobEffectInstance(MobEffects.HUNGER, 2, 1));
 		}
 	}
 }
